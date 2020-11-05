@@ -1,0 +1,61 @@
+body {
+  background-color: #ffe0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.canvas {
+  width: 650px;
+  height: 650px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls_range {
+  padding-top: 20px;
+}
+
+.controls_colors {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.controls_colors .controls_color {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+.controls_btns {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.controls_btns button {
+  all: unset;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 80px;
+  text-align: center;
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.controls_btns button:active {
+  transform: scale(0.98);
+}
